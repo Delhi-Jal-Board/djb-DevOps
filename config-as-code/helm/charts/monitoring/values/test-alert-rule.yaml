@@ -1,0 +1,18 @@
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  name: test-email-alert
+  namespace: monitoring
+spec:
+  groups:
+    - name: test-group
+      rules:
+        - alert: TestEmailAlert
+          expr: vector(1)
+          #for: 1m
+          labels:
+            severity: critical
+            cluster: test-cluster
+          annotations:
+            summary: "Test alert"
+            description: "This is a test alert to verify email/slack notification."

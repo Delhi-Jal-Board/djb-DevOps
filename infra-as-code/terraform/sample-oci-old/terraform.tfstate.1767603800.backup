@@ -1,0 +1,1672 @@
+{
+  "version": 4,
+  "terraform_version": "1.14.0",
+  "serial": 94,
+  "lineage": "ee4e9d4e-1882-c423-26bb-7f7a99477a4c",
+  "outputs": {},
+  "resources": [
+    {
+      "module": "module.es_data_v1",
+      "mode": "managed",
+      "type": "oci_core_volume",
+      "name": "block_volume",
+      "provider": "provider[\"registry.terraform.io/hashicorp/oci\"]",
+      "instances": [
+        {
+          "index_key": 0,
+          "schema_version": 0,
+          "attributes": {
+            "auto_tuned_vpus_per_gb": null,
+            "autotune_policies": [],
+            "availability_domain": "HfTn:AP-HYDERABAD-1-AD-1",
+            "backup_policy_id": null,
+            "block_volume_replicas": [],
+            "block_volume_replicas_deletion": null,
+            "cluster_placement_group_id": null,
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaa6c4rcxfbi5xd4pdroqedj2wmtcmorbbspqheg4wb4awuambwte6q",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2025-12-29T07:06:37.531Z"
+            },
+            "display_name": "es-data-v1-0",
+            "freeform_tags": {
+              "Component": "es-data-v1",
+              "KubernetesCluster": "oci-test",
+              "Name": "es-data-v1-0"
+            },
+            "id": "ocid1.volume.oc1.ap-hyderabad-1.abuhsljrihlyej3zoh2sqw6qennfwufje75l75eupygddlnnfdjwyvscuhoa",
+            "is_auto_tune_enabled": false,
+            "is_hydrated": true,
+            "is_reservations_enabled": false,
+            "kms_key_id": null,
+            "size_in_gbs": "50",
+            "size_in_mbs": "51200",
+            "source_details": [],
+            "state": "AVAILABLE",
+            "system_tags": {},
+            "time_created": "2025-12-29 07:06:37.539 +0000 UTC",
+            "timeouts": null,
+            "volume_backup_id": null,
+            "volume_group_id": null,
+            "vpus_per_gb": "20",
+            "xrc_kms_key_id": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        },
+        {
+          "index_key": 1,
+          "schema_version": 0,
+          "attributes": {
+            "auto_tuned_vpus_per_gb": null,
+            "autotune_policies": [],
+            "availability_domain": "HfTn:AP-HYDERABAD-1-AD-1",
+            "backup_policy_id": null,
+            "block_volume_replicas": [],
+            "block_volume_replicas_deletion": null,
+            "cluster_placement_group_id": null,
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaa6c4rcxfbi5xd4pdroqedj2wmtcmorbbspqheg4wb4awuambwte6q",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2025-12-29T07:06:37.571Z"
+            },
+            "display_name": "es-data-v1-1",
+            "freeform_tags": {
+              "Component": "es-data-v1",
+              "KubernetesCluster": "oci-test",
+              "Name": "es-data-v1-1"
+            },
+            "id": "ocid1.volume.oc1.ap-hyderabad-1.abuhsljr2qri6z43to74rxdfhn5elwr4dkj6xbiotmhoti6er7nphtcsqkva",
+            "is_auto_tune_enabled": false,
+            "is_hydrated": true,
+            "is_reservations_enabled": false,
+            "kms_key_id": null,
+            "size_in_gbs": "50",
+            "size_in_mbs": "51200",
+            "source_details": [],
+            "state": "AVAILABLE",
+            "system_tags": {},
+            "time_created": "2025-12-29 07:06:37.58 +0000 UTC",
+            "timeouts": null,
+            "volume_backup_id": null,
+            "volume_group_id": null,
+            "vpus_per_gb": "20",
+            "xrc_kms_key_id": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        },
+        {
+          "index_key": 2,
+          "schema_version": 0,
+          "attributes": {
+            "auto_tuned_vpus_per_gb": null,
+            "autotune_policies": [],
+            "availability_domain": "HfTn:AP-HYDERABAD-1-AD-1",
+            "backup_policy_id": null,
+            "block_volume_replicas": [],
+            "block_volume_replicas_deletion": null,
+            "cluster_placement_group_id": null,
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaa6c4rcxfbi5xd4pdroqedj2wmtcmorbbspqheg4wb4awuambwte6q",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2025-12-29T07:06:37.591Z"
+            },
+            "display_name": "es-data-v1-2",
+            "freeform_tags": {
+              "Component": "es-data-v1",
+              "KubernetesCluster": "oci-test",
+              "Name": "es-data-v1-2"
+            },
+            "id": "ocid1.volume.oc1.ap-hyderabad-1.abuhsljrkdcwl7wix7pblzkr6tqujggw4b47nn2hlqrnqqppdue6lvrpdsqq",
+            "is_auto_tune_enabled": false,
+            "is_hydrated": true,
+            "is_reservations_enabled": false,
+            "kms_key_id": null,
+            "size_in_gbs": "50",
+            "size_in_mbs": "51200",
+            "source_details": [],
+            "state": "AVAILABLE",
+            "system_tags": {},
+            "time_created": "2025-12-29 07:06:37.598 +0000 UTC",
+            "timeouts": null,
+            "volume_backup_id": null,
+            "volume_group_id": null,
+            "vpus_per_gb": "20",
+            "xrc_kms_key_id": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        }
+      ]
+    },
+    {
+      "module": "module.es_master",
+      "mode": "managed",
+      "type": "oci_core_volume",
+      "name": "block_volume",
+      "provider": "provider[\"registry.terraform.io/hashicorp/oci\"]",
+      "instances": [
+        {
+          "index_key": 0,
+          "schema_version": 0,
+          "attributes": {
+            "auto_tuned_vpus_per_gb": null,
+            "autotune_policies": [],
+            "availability_domain": "HfTn:AP-HYDERABAD-1-AD-1",
+            "backup_policy_id": null,
+            "block_volume_replicas": [],
+            "block_volume_replicas_deletion": null,
+            "cluster_placement_group_id": null,
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaa6c4rcxfbi5xd4pdroqedj2wmtcmorbbspqheg4wb4awuambwte6q",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2025-12-29T07:06:37.554Z"
+            },
+            "display_name": "es-master-0",
+            "freeform_tags": {
+              "Component": "es-master",
+              "KubernetesCluster": "oci-test",
+              "Name": "es-master-0"
+            },
+            "id": "ocid1.volume.oc1.ap-hyderabad-1.abuhsljr77vcw3px6mhr6gcahfuj4iwz3xk4bstpdnfgbpfnrqvt5grtpv4q",
+            "is_auto_tune_enabled": false,
+            "is_hydrated": true,
+            "is_reservations_enabled": false,
+            "kms_key_id": null,
+            "size_in_gbs": "50",
+            "size_in_mbs": "51200",
+            "source_details": [],
+            "state": "AVAILABLE",
+            "system_tags": {},
+            "time_created": "2025-12-29 07:06:37.562 +0000 UTC",
+            "timeouts": null,
+            "volume_backup_id": null,
+            "volume_group_id": null,
+            "vpus_per_gb": "20",
+            "xrc_kms_key_id": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        },
+        {
+          "index_key": 1,
+          "schema_version": 0,
+          "attributes": {
+            "auto_tuned_vpus_per_gb": null,
+            "autotune_policies": [],
+            "availability_domain": "HfTn:AP-HYDERABAD-1-AD-1",
+            "backup_policy_id": null,
+            "block_volume_replicas": [],
+            "block_volume_replicas_deletion": null,
+            "cluster_placement_group_id": null,
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaa6c4rcxfbi5xd4pdroqedj2wmtcmorbbspqheg4wb4awuambwte6q",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2025-12-29T07:06:37.558Z"
+            },
+            "display_name": "es-master-1",
+            "freeform_tags": {
+              "Component": "es-master",
+              "KubernetesCluster": "oci-test",
+              "Name": "es-master-1"
+            },
+            "id": "ocid1.volume.oc1.ap-hyderabad-1.abuhsljrra6pw72fcwczhz53jp4wfxrpnzexumnexjjbnf33nuenrskcauaa",
+            "is_auto_tune_enabled": false,
+            "is_hydrated": true,
+            "is_reservations_enabled": false,
+            "kms_key_id": null,
+            "size_in_gbs": "50",
+            "size_in_mbs": "51200",
+            "source_details": [],
+            "state": "AVAILABLE",
+            "system_tags": {},
+            "time_created": "2025-12-29 07:06:37.566 +0000 UTC",
+            "timeouts": null,
+            "volume_backup_id": null,
+            "volume_group_id": null,
+            "vpus_per_gb": "20",
+            "xrc_kms_key_id": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        },
+        {
+          "index_key": 2,
+          "schema_version": 0,
+          "attributes": {
+            "auto_tuned_vpus_per_gb": null,
+            "autotune_policies": [],
+            "availability_domain": "HfTn:AP-HYDERABAD-1-AD-1",
+            "backup_policy_id": null,
+            "block_volume_replicas": [],
+            "block_volume_replicas_deletion": null,
+            "cluster_placement_group_id": null,
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaa6c4rcxfbi5xd4pdroqedj2wmtcmorbbspqheg4wb4awuambwte6q",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2025-12-29T07:06:37.565Z"
+            },
+            "display_name": "es-master-2",
+            "freeform_tags": {
+              "Component": "es-master",
+              "KubernetesCluster": "oci-test",
+              "Name": "es-master-2"
+            },
+            "id": "ocid1.volume.oc1.ap-hyderabad-1.abuhsljr77jizhwa3hmmy4ppu3xctqein3xyarkcia2tnyrwbcsz65wwctqa",
+            "is_auto_tune_enabled": false,
+            "is_hydrated": true,
+            "is_reservations_enabled": false,
+            "kms_key_id": null,
+            "size_in_gbs": "50",
+            "size_in_mbs": "51200",
+            "source_details": [],
+            "state": "AVAILABLE",
+            "system_tags": {},
+            "time_created": "2025-12-29 07:06:37.572 +0000 UTC",
+            "timeouts": null,
+            "volume_backup_id": null,
+            "volume_group_id": null,
+            "vpus_per_gb": "20",
+            "xrc_kms_key_id": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        }
+      ]
+    },
+    {
+      "module": "module.kafka",
+      "mode": "managed",
+      "type": "oci_core_volume",
+      "name": "block_volume",
+      "provider": "provider[\"registry.terraform.io/hashicorp/oci\"]",
+      "instances": [
+        {
+          "index_key": 0,
+          "schema_version": 0,
+          "attributes": {
+            "auto_tuned_vpus_per_gb": null,
+            "autotune_policies": [],
+            "availability_domain": "HfTn:AP-HYDERABAD-1-AD-1",
+            "backup_policy_id": null,
+            "block_volume_replicas": [],
+            "block_volume_replicas_deletion": null,
+            "cluster_placement_group_id": null,
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaa6c4rcxfbi5xd4pdroqedj2wmtcmorbbspqheg4wb4awuambwte6q",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2025-12-29T07:00:22.914Z"
+            },
+            "display_name": "kafka-0",
+            "freeform_tags": {
+              "Component": "kafka",
+              "KubernetesCluster": "oci-test",
+              "Name": "kafka-0"
+            },
+            "id": "ocid1.volume.oc1.ap-hyderabad-1.abuhsljrnwt5ygzfrbodkpojcb3iu3gesff66eshda74cqxfsqlo74yhuhoa",
+            "is_auto_tune_enabled": false,
+            "is_hydrated": true,
+            "is_reservations_enabled": false,
+            "kms_key_id": null,
+            "size_in_gbs": "50",
+            "size_in_mbs": "51200",
+            "source_details": [],
+            "state": "AVAILABLE",
+            "system_tags": {
+              "orcl-cloud.free-tier-retained": "true"
+            },
+            "time_created": "2025-12-29 07:00:22.92 +0000 UTC",
+            "timeouts": null,
+            "volume_backup_id": null,
+            "volume_group_id": null,
+            "vpus_per_gb": "20",
+            "xrc_kms_key_id": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        },
+        {
+          "index_key": 1,
+          "schema_version": 0,
+          "attributes": {
+            "auto_tuned_vpus_per_gb": null,
+            "autotune_policies": [],
+            "availability_domain": "HfTn:AP-HYDERABAD-1-AD-1",
+            "backup_policy_id": null,
+            "block_volume_replicas": [],
+            "block_volume_replicas_deletion": null,
+            "cluster_placement_group_id": null,
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaa6c4rcxfbi5xd4pdroqedj2wmtcmorbbspqheg4wb4awuambwte6q",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2025-12-29T07:00:22.402Z"
+            },
+            "display_name": "kafka-1",
+            "freeform_tags": {
+              "Component": "kafka",
+              "KubernetesCluster": "oci-test",
+              "Name": "kafka-1"
+            },
+            "id": "ocid1.volume.oc1.ap-hyderabad-1.abuhsljr6bebtk63nr2ldo2hxmoavnobmcznausa2eiyujpgqxyk5ztqvx2q",
+            "is_auto_tune_enabled": false,
+            "is_hydrated": true,
+            "is_reservations_enabled": false,
+            "kms_key_id": null,
+            "size_in_gbs": "50",
+            "size_in_mbs": "51200",
+            "source_details": [],
+            "state": "AVAILABLE",
+            "system_tags": {
+              "orcl-cloud.free-tier-retained": "true"
+            },
+            "time_created": "2025-12-29 07:00:22.411 +0000 UTC",
+            "timeouts": null,
+            "volume_backup_id": null,
+            "volume_group_id": null,
+            "vpus_per_gb": "20",
+            "xrc_kms_key_id": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        },
+        {
+          "index_key": 2,
+          "schema_version": 0,
+          "attributes": {
+            "auto_tuned_vpus_per_gb": null,
+            "autotune_policies": [],
+            "availability_domain": "HfTn:AP-HYDERABAD-1-AD-1",
+            "backup_policy_id": null,
+            "block_volume_replicas": [],
+            "block_volume_replicas_deletion": null,
+            "cluster_placement_group_id": null,
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaa6c4rcxfbi5xd4pdroqedj2wmtcmorbbspqheg4wb4awuambwte6q",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2025-12-29T07:00:22.469Z"
+            },
+            "display_name": "kafka-2",
+            "freeform_tags": {
+              "Component": "kafka",
+              "KubernetesCluster": "oci-test",
+              "Name": "kafka-2"
+            },
+            "id": "ocid1.volume.oc1.ap-hyderabad-1.abuhsljrinwifb2q4mowqdpof26cyln4grcixn7nnurrr4awarysje4goyhq",
+            "is_auto_tune_enabled": false,
+            "is_hydrated": true,
+            "is_reservations_enabled": false,
+            "kms_key_id": null,
+            "size_in_gbs": "50",
+            "size_in_mbs": "51200",
+            "source_details": [],
+            "state": "AVAILABLE",
+            "system_tags": {
+              "orcl-cloud.free-tier-retained": "true"
+            },
+            "time_created": "2025-12-29 07:00:22.476 +0000 UTC",
+            "timeouts": null,
+            "volume_backup_id": null,
+            "volume_group_id": null,
+            "vpus_per_gb": "20",
+            "xrc_kms_key_id": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "oci_core_internet_gateway",
+      "name": "igw",
+      "provider": "provider[\"registry.terraform.io/hashicorp/oci\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaanvaa4ygjpgmcjlmnw2tmhmase5gpfkkcmhszznwym7jxfjutaknq",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2025-12-29T06:10:06.387Z"
+            },
+            "display_name": "oci-test-igw",
+            "enabled": true,
+            "freeform_tags": {},
+            "id": "ocid1.internetgateway.oc1.ap-hyderabad-1.aaaaaaaaphsqjnhpycqlavtbcb2m53s4cpvplecfweagwtknrdhar534da2a",
+            "route_table_id": null,
+            "state": "AVAILABLE",
+            "time_created": "2025-12-29 06:10:06.433 +0000 UTC",
+            "timeouts": null,
+            "vcn_id": "ocid1.vcn.oc1.ap-hyderabad-1.amaaaaaatnhtktia6yehomx6iada3zvmjfqwuui3cgueiqqm6ibaj7pzcv5a"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.oci_core_vcn.vcn"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "oci_core_nat_gateway",
+      "name": "nat",
+      "provider": "provider[\"registry.terraform.io/hashicorp/oci\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "block_traffic": false,
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaanvaa4ygjpgmcjlmnw2tmhmase5gpfkkcmhszznwym7jxfjutaknq",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2025-12-29T06:10:06.503Z"
+            },
+            "display_name": "oci-test-nat",
+            "freeform_tags": {},
+            "id": "ocid1.natgateway.oc1.ap-hyderabad-1.aaaaaaaaltfdzqkg4i6gu47lrkxfe5rkpcth4fmd7xlw3fbijpennijwiz7a",
+            "nat_ip": "144.24.139.40",
+            "public_ip_id": "ocid1.publicip.oc1.ap-hyderabad-1.aaaaaaaapxypq23w6aovakr24qdaje7ax5yj2dnea5yru7npv77tdgprscwa",
+            "route_table_id": null,
+            "state": "AVAILABLE",
+            "time_created": "2025-12-29 06:10:06.67 +0000 UTC",
+            "timeouts": null,
+            "vcn_id": "ocid1.vcn.oc1.ap-hyderabad-1.amaaaaaatnhtktia6yehomx6iada3zvmjfqwuui3cgueiqqm6ibaj7pzcv5a"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.oci_core_vcn.vcn"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "oci_core_route_table",
+      "name": "private_rt",
+      "provider": "provider[\"registry.terraform.io/hashicorp/oci\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaanvaa4ygjpgmcjlmnw2tmhmase5gpfkkcmhszznwym7jxfjutaknq",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2025-12-29T06:10:11.454Z"
+            },
+            "display_name": "private-oci-test-rt",
+            "freeform_tags": {},
+            "id": "ocid1.routetable.oc1.ap-hyderabad-1.aaaaaaaaan5gh3z5gqjio7zsjqak35e4gmykbhk2vdjsmbe4ovhwgkvulaaq",
+            "route_rules": [
+              {
+                "cidr_block": "",
+                "description": "",
+                "destination": "0.0.0.0/0",
+                "destination_type": "CIDR_BLOCK",
+                "network_entity_id": "ocid1.natgateway.oc1.ap-hyderabad-1.aaaaaaaaltfdzqkg4i6gu47lrkxfe5rkpcth4fmd7xlw3fbijpennijwiz7a",
+                "route_type": "STATIC"
+              },
+              {
+                "cidr_block": "",
+                "description": "",
+                "destination": "oci-hyd-objectstorage",
+                "destination_type": "SERVICE_CIDR_BLOCK",
+                "network_entity_id": "ocid1.servicegateway.oc1.ap-hyderabad-1.aaaaaaaadk43cxardrcfwn3j56uvra3duiy2xcejdtkreun36phpfbhz5zpa",
+                "route_type": "STATIC"
+              }
+            ],
+            "state": "AVAILABLE",
+            "time_created": "2025-12-29 06:10:11.486 +0000 UTC",
+            "timeouts": null,
+            "vcn_id": "ocid1.vcn.oc1.ap-hyderabad-1.amaaaaaatnhtktia6yehomx6iada3zvmjfqwuui3cgueiqqm6ibaj7pzcv5a"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.data.oci_core_services.all",
+            "module.network.oci_core_nat_gateway.nat",
+            "module.network.oci_core_service_gateway.sgw",
+            "module.network.oci_core_vcn.vcn"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "oci_core_route_table",
+      "name": "public_rt",
+      "provider": "provider[\"registry.terraform.io/hashicorp/oci\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaanvaa4ygjpgmcjlmnw2tmhmase5gpfkkcmhszznwym7jxfjutaknq",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2025-12-29T06:10:06.879Z"
+            },
+            "display_name": "public-oci-test-rt",
+            "freeform_tags": {},
+            "id": "ocid1.routetable.oc1.ap-hyderabad-1.aaaaaaaazdz3cztjwavgtpruatq42qdlghrq7ucp22q2kc2w5f35kblm6k4a",
+            "route_rules": [
+              {
+                "cidr_block": "",
+                "description": "",
+                "destination": "0.0.0.0/0",
+                "destination_type": "CIDR_BLOCK",
+                "network_entity_id": "ocid1.internetgateway.oc1.ap-hyderabad-1.aaaaaaaaphsqjnhpycqlavtbcb2m53s4cpvplecfweagwtknrdhar534da2a",
+                "route_type": "STATIC"
+              }
+            ],
+            "state": "AVAILABLE",
+            "time_created": "2025-12-29 06:10:06.896 +0000 UTC",
+            "timeouts": null,
+            "vcn_id": "ocid1.vcn.oc1.ap-hyderabad-1.amaaaaaatnhtktia6yehomx6iada3zvmjfqwuui3cgueiqqm6ibaj7pzcv5a"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.oci_core_internet_gateway.igw",
+            "module.network.oci_core_vcn.vcn"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "oci_core_security_list",
+      "name": "private_worker_sl",
+      "provider": "provider[\"registry.terraform.io/hashicorp/oci\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaanvaa4ygjpgmcjlmnw2tmhmase5gpfkkcmhszznwym7jxfjutaknq",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2026-01-05T08:34:24.341Z"
+            },
+            "display_name": "private-worker-sl",
+            "egress_security_rules": [
+              {
+                "description": "",
+                "destination": "0.0.0.0/0",
+                "destination_type": "CIDR_BLOCK",
+                "icmp_options": [],
+                "protocol": "all",
+                "stateless": false,
+                "tcp_options": [],
+                "udp_options": []
+              }
+            ],
+            "freeform_tags": {},
+            "id": "ocid1.securitylist.oc1.ap-hyderabad-1.aaaaaaaacil44b6apth4dsz5w5aw5hauna46ul7t7qt2gno2uujyvn6ym7kq",
+            "ingress_security_rules": [
+              {
+                "description": "",
+                "icmp_options": [],
+                "protocol": "6",
+                "source": "10.0.1.0/24",
+                "source_type": "CIDR_BLOCK",
+                "stateless": false,
+                "tcp_options": [
+                  {
+                    "max": 10250,
+                    "min": 10250,
+                    "source_port_range": []
+                  }
+                ],
+                "udp_options": []
+              },
+              {
+                "description": "",
+                "icmp_options": [],
+                "protocol": "all",
+                "source": "10.0.0.0/16",
+                "source_type": "CIDR_BLOCK",
+                "stateless": false,
+                "tcp_options": [],
+                "udp_options": []
+              },
+              {
+                "description": "",
+                "icmp_options": [],
+                "protocol": "all",
+                "source": "10.0.2.0/24",
+                "source_type": "CIDR_BLOCK",
+                "stateless": false,
+                "tcp_options": [],
+                "udp_options": []
+              }
+            ],
+            "state": "AVAILABLE",
+            "time_created": "2026-01-05 08:34:24.374 +0000 UTC",
+            "timeouts": null,
+            "vcn_id": "ocid1.vcn.oc1.ap-hyderabad-1.amaaaaaatnhtktia6yehomx6iada3zvmjfqwuui3cgueiqqm6ibaj7pzcv5a"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.oci_core_vcn.vcn"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "oci_core_security_list",
+      "name": "public_api_sl",
+      "provider": "provider[\"registry.terraform.io/hashicorp/oci\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaanvaa4ygjpgmcjlmnw2tmhmase5gpfkkcmhszznwym7jxfjutaknq",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2026-01-05T06:13:03.132Z"
+            },
+            "display_name": "public-api-sl",
+            "egress_security_rules": [
+              {
+                "description": "",
+                "destination": "0.0.0.0/0",
+                "destination_type": "CIDR_BLOCK",
+                "icmp_options": [],
+                "protocol": "all",
+                "stateless": false,
+                "tcp_options": [],
+                "udp_options": []
+              }
+            ],
+            "freeform_tags": {},
+            "id": "ocid1.securitylist.oc1.ap-hyderabad-1.aaaaaaaailcpedkxlvjst2n6imveqd62eps4aj2bbumo5xmpulibrlasdztq",
+            "ingress_security_rules": [
+              {
+                "description": "",
+                "icmp_options": [],
+                "protocol": "6",
+                "source": "0.0.0.0/0",
+                "source_type": "CIDR_BLOCK",
+                "stateless": false,
+                "tcp_options": [
+                  {
+                    "max": 6443,
+                    "min": 6443,
+                    "source_port_range": []
+                  }
+                ],
+                "udp_options": []
+              }
+            ],
+            "state": "AVAILABLE",
+            "time_created": "2026-01-05 06:13:03.161 +0000 UTC",
+            "timeouts": null,
+            "vcn_id": "ocid1.vcn.oc1.ap-hyderabad-1.amaaaaaatnhtktia6yehomx6iada3zvmjfqwuui3cgueiqqm6ibaj7pzcv5a"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.oci_core_vcn.vcn"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "oci_core_service_gateway",
+      "name": "sgw",
+      "provider": "provider[\"registry.terraform.io/hashicorp/oci\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "block_traffic": false,
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaanvaa4ygjpgmcjlmnw2tmhmase5gpfkkcmhszznwym7jxfjutaknq",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2025-12-29T06:10:06.486Z"
+            },
+            "display_name": "oci-test-sgw",
+            "freeform_tags": {},
+            "id": "ocid1.servicegateway.oc1.ap-hyderabad-1.aaaaaaaadk43cxardrcfwn3j56uvra3duiy2xcejdtkreun36phpfbhz5zpa",
+            "route_table_id": null,
+            "services": [
+              {
+                "service_id": "ocid1.service.oc1.ap-hyderabad-1.aaaaaaaapnaw2bmc7fmhaqlz6t4exhebzm3d6im73ibbggkpgaex2sxkflda",
+                "service_name": "OCI HYD Object Storage"
+              }
+            ],
+            "state": "AVAILABLE",
+            "time_created": "2025-12-29 06:10:09.201 +0000 UTC",
+            "timeouts": null,
+            "vcn_id": "ocid1.vcn.oc1.ap-hyderabad-1.amaaaaaatnhtktia6yehomx6iada3zvmjfqwuui3cgueiqqm6ibaj7pzcv5a"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.data.oci_core_services.all",
+            "module.network.oci_core_vcn.vcn"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "oci_core_subnet",
+      "name": "private_subnet",
+      "provider": "provider[\"registry.terraform.io/hashicorp/oci\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "availability_domain": null,
+            "cidr_block": "10.0.2.0/24",
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaanvaa4ygjpgmcjlmnw2tmhmase5gpfkkcmhszznwym7jxfjutaknq",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2025-12-29T06:10:07.230Z"
+            },
+            "dhcp_options_id": "ocid1.dhcpoptions.oc1.ap-hyderabad-1.aaaaaaaaapnt2tyd4icaofphyzflkvllwzmdjqmh3pmg2kyai7rowkn5x5sq",
+            "display_name": "private-worker-subnet",
+            "dns_label": "private",
+            "freeform_tags": {},
+            "id": "ocid1.subnet.oc1.ap-hyderabad-1.aaaaaaaae53fwt5evmqighj3xjjzirt4x4zwdqpo3wj6jfqakzwxpcnlcrea",
+            "ipv4cidr_blocks": [
+              "10.0.2.0/24"
+            ],
+            "ipv6cidr_block": null,
+            "ipv6cidr_blocks": [],
+            "ipv6virtual_router_ip": null,
+            "prohibit_internet_ingress": true,
+            "prohibit_public_ip_on_vnic": true,
+            "route_table_id": "ocid1.routetable.oc1.ap-hyderabad-1.aaaaaaaaan5gh3z5gqjio7zsjqak35e4gmykbhk2vdjsmbe4ovhwgkvulaaq",
+            "security_list_ids": [
+              "ocid1.securitylist.oc1.ap-hyderabad-1.aaaaaaaaagc6wsescyvjtv5yorwjrqw2qzritbflcai2ycbeya3btmzefqda"
+            ],
+            "state": "AVAILABLE",
+            "subnet_domain_name": "private.ocitest.oraclevcn.com",
+            "time_created": "2025-12-29 06:10:11.925 +0000 UTC",
+            "timeouts": null,
+            "vcn_id": "ocid1.vcn.oc1.ap-hyderabad-1.amaaaaaatnhtktia6yehomx6iada3zvmjfqwuui3cgueiqqm6ibaj7pzcv5a",
+            "virtual_router_ip": "10.0.2.1",
+            "virtual_router_mac": "00:00:17:F8:E4:2D"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.data.oci_core_services.all",
+            "module.network.oci_core_nat_gateway.nat",
+            "module.network.oci_core_route_table.private_rt",
+            "module.network.oci_core_security_list.private_worker_sl",
+            "module.network.oci_core_service_gateway.sgw",
+            "module.network.oci_core_vcn.vcn"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "oci_core_subnet",
+      "name": "public_subnet",
+      "provider": "provider[\"registry.terraform.io/hashicorp/oci\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "availability_domain": null,
+            "cidr_block": "10.0.1.0/24",
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaanvaa4ygjpgmcjlmnw2tmhmase5gpfkkcmhszznwym7jxfjutaknq",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2025-12-29T06:10:07.230Z"
+            },
+            "dhcp_options_id": "ocid1.dhcpoptions.oc1.ap-hyderabad-1.aaaaaaaaapnt2tyd4icaofphyzflkvllwzmdjqmh3pmg2kyai7rowkn5x5sq",
+            "display_name": "public-api-subnet",
+            "dns_label": "public",
+            "freeform_tags": {},
+            "id": "ocid1.subnet.oc1.ap-hyderabad-1.aaaaaaaa6uafec2lwxf7psrrjsnazxwltlzo2e7fkju5zupr7irb6e24pxra",
+            "ipv4cidr_blocks": [
+              "10.0.1.0/24"
+            ],
+            "ipv6cidr_block": null,
+            "ipv6cidr_blocks": [],
+            "ipv6virtual_router_ip": null,
+            "prohibit_internet_ingress": false,
+            "prohibit_public_ip_on_vnic": false,
+            "route_table_id": "ocid1.routetable.oc1.ap-hyderabad-1.aaaaaaaazdz3cztjwavgtpruatq42qdlghrq7ucp22q2kc2w5f35kblm6k4a",
+            "security_list_ids": [
+              "ocid1.securitylist.oc1.ap-hyderabad-1.aaaaaaaailcpedkxlvjst2n6imveqd62eps4aj2bbumo5xmpulibrlasdztq"
+            ],
+            "state": "AVAILABLE",
+            "subnet_domain_name": "public.ocitest.oraclevcn.com",
+            "time_created": "2025-12-29 06:10:07.257 +0000 UTC",
+            "timeouts": null,
+            "vcn_id": "ocid1.vcn.oc1.ap-hyderabad-1.amaaaaaatnhtktia6yehomx6iada3zvmjfqwuui3cgueiqqm6ibaj7pzcv5a",
+            "virtual_router_ip": "10.0.1.1",
+            "virtual_router_mac": "00:00:17:F8:E4:2D"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.oci_core_internet_gateway.igw",
+            "module.network.oci_core_route_table.public_rt",
+            "module.network.oci_core_security_list.public_api_sl",
+            "module.network.oci_core_vcn.vcn"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.network",
+      "mode": "managed",
+      "type": "oci_core_vcn",
+      "name": "vcn",
+      "provider": "provider[\"registry.terraform.io/hashicorp/oci\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "byoipv6cidr_blocks": [],
+            "byoipv6cidr_details": [],
+            "cidr_block": "10.0.0.0/16",
+            "cidr_blocks": [
+              "10.0.0.0/16"
+            ],
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaanvaa4ygjpgmcjlmnw2tmhmase5gpfkkcmhszznwym7jxfjutaknq",
+            "default_dhcp_options_id": "ocid1.dhcpoptions.oc1.ap-hyderabad-1.aaaaaaaaapnt2tyd4icaofphyzflkvllwzmdjqmh3pmg2kyai7rowkn5x5sq",
+            "default_route_table_id": "ocid1.routetable.oc1.ap-hyderabad-1.aaaaaaaa3n6gsnsbr6qtcldw42kts737g7pxtjcq52mfmk3lalupya7fn3ra",
+            "default_security_list_id": "ocid1.securitylist.oc1.ap-hyderabad-1.aaaaaaaaagc6wsescyvjtv5yorwjrqw2qzritbflcai2ycbeya3btmzefqda",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2025-12-29T06:10:05.863Z"
+            },
+            "display_name": "oci-test-vcn",
+            "dns_label": "ocitest",
+            "freeform_tags": {
+              "KubernetesCluster": "oci-test",
+              "Name": "oci-test"
+            },
+            "id": "ocid1.vcn.oc1.ap-hyderabad-1.amaaaaaatnhtktia6yehomx6iada3zvmjfqwuui3cgueiqqm6ibaj7pzcv5a",
+            "ipv6cidr_blocks": [],
+            "ipv6private_cidr_blocks": [],
+            "is_ipv6enabled": false,
+            "is_oracle_gua_allocation_enabled": null,
+            "security_attributes": {},
+            "state": "AVAILABLE",
+            "time_created": "2025-12-29 06:10:05.913 +0000 UTC",
+            "timeouts": null,
+            "vcn_domain_name": "ocitest.oraclevcn.com"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        }
+      ]
+    },
+    {
+      "module": "module.node_pool",
+      "mode": "data",
+      "type": "oci_containerengine_node_pool_option",
+      "name": "options",
+      "provider": "provider[\"registry.terraform.io/hashicorp/oci\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "compartment_id": null,
+            "id": "ContainerengineNodePoolOptionDataSource-1870923232",
+            "images": [],
+            "kubernetes_versions": [
+              "v1.31.1",
+              "v1.31.10",
+              "v1.32.1",
+              "v1.33.0",
+              "v1.33.1",
+              "v1.34.0",
+              "v1.34.1"
+            ],
+            "node_pool_k8s_version": null,
+            "node_pool_option_id": "all",
+            "node_pool_os_arch": null,
+            "node_pool_os_type": null,
+            "shapes": [
+              "BM.Optimized3.36",
+              "BM.Standard.A1.160",
+              "BM.Standard.E2.64",
+              "BM.Standard.E3.128",
+              "BM.Standard.E4.128",
+              "BM.Standard.E5.192",
+              "BM.Standard.E6.256",
+              "BM.Standard2.52",
+              "BM.Standard3.64",
+              "VM.Optimized3.Flex",
+              "VM.Standard.A1.Flex",
+              "VM.Standard.E2.1",
+              "VM.Standard.E2.2",
+              "VM.Standard.E2.4",
+              "VM.Standard.E2.8",
+              "VM.Standard.E3.Flex",
+              "VM.Standard.E4.Flex",
+              "VM.Standard.E5.Flex",
+              "VM.Standard2.1",
+              "VM.Standard2.16",
+              "VM.Standard2.2",
+              "VM.Standard2.24",
+              "VM.Standard2.4",
+              "VM.Standard2.8",
+              "VM.Standard3.Flex"
+            ],
+            "should_list_all_patch_versions": null,
+            "sources": [
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa4q56p66ovq5jm5c35223q6elfqxsnn5uek2acpvdc26ldcavtu5q",
+                "source_name": "Oracle-Linux-8.10-aarch64-2025.09.16-0-OKE-1.34.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaab53aija5ngh3wdypgm2aam4q2if7utrq6fozygtotikqaf4i64tq",
+                "source_name": "Oracle-Linux-8.10-aarch64-2025.09.16-0-OKE-1.33.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaarjmnxov44y6baoycu57myvcvsspb2l7yhnsvzo3idhftezjvr2gq",
+                "source_name": "Oracle-Linux-8.10-aarch64-2025.09.16-0-OKE-1.32.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaiy3z6ewrpvccyf5ew6b2qhtpysn6taawhemtepe7z47dxci5r3lq",
+                "source_name": "Oracle-Linux-8.10-aarch64-2025.09.16-0-OKE-1.31.10-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaap7hx5q66ghgs4kmz5v5y5v3etrqxvkcqllfqgt3ghq6xmqpa25ca",
+                "source_name": "Oracle-Linux-8.10-aarch64-2025.08.31-0-OKE-1.34.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaw47wzk4u6hdhgafcgtsgmwvzacf2csodg6igcu5dnx6gyo2yhrma",
+                "source_name": "Oracle-Linux-8.10-aarch64-2025.08.31-0-OKE-1.33.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaad5horzlu7q7khrydofc654gidgargpoub6fbgc43p2baut7hhsda",
+                "source_name": "Oracle-Linux-8.10-aarch64-2025.08.31-0-OKE-1.32.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaavopzzbviksioijk5gamqks6rgwbqlo3lflvuwptuhy733tbrdmoq",
+                "source_name": "Oracle-Linux-8.10-aarch64-2025.08.31-0-OKE-1.31.10-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaauqti4hegy2n6arxgfcdcrp5w2xfrw54jgddgqusnuwm3jfh7ynrq",
+                "source_name": "Oracle-Linux-8.10-aarch64-2025.07.21-0-OKE-1.33.1-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaac3xcly622ft4hq5ok3ppucd5qmbdpjyy6d5bcidtng2vemq53s5q",
+                "source_name": "Oracle-Linux-8.10-aarch64-2025.07.21-0-OKE-1.32.1-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaxec5yfef7u3a5jkvvpwxamakqvjzhxloggg5gnqh43i44phr7cna",
+                "source_name": "Oracle-Linux-8.10-aarch64-2025.07.21-0-OKE-1.31.10-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaasyw4q4cub6opzwifuareyuifsvwf72qfuazzb2t2cvf55joedheq",
+                "source_name": "Oracle-Linux-8.10-aarch64-2025.05.19-0-OKE-1.31.1-804",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa33s2l6ncgaeziieyxk6fwgmtwfwawirwuuecd2hqfdaznsbcorqa",
+                "source_name": "Oracle-Linux-8.10-aarch64-2025.05.19-0-OKE-1.31.1-764",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa22ugqy6wkkde2umicilyt3any7exn2t7p7dy5gnwxw26blzti2iq",
+                "source_name": "Oracle-Linux-8.10-aarch64-2025.02.28-0-OKE-1.31.1-760",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaobz4tgx7pobmhjdadfdfxejkhpfm7dqvrizcdz3dijgvj2s24jjq",
+                "source_name": "Oracle-Linux-8.10-Gen2-GPU-2025.09.16-0-OKE-1.34.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa6l7iv6uadqm3wck7ofaxfg2u4hxxwoqdevtrh2qgzirard6colgq",
+                "source_name": "Oracle-Linux-8.10-Gen2-GPU-2025.09.16-0-OKE-1.33.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa4eotqhwhqvgxtventnavcq7sg42lvvgfqnrkrmtxswkqrtkgrvjq",
+                "source_name": "Oracle-Linux-8.10-Gen2-GPU-2025.09.16-0-OKE-1.32.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaawxvs3gkn4kj5mfuvsfhdi4peyaufij6gl6g6amtnprgzlw7u6wga",
+                "source_name": "Oracle-Linux-8.10-Gen2-GPU-2025.09.16-0-OKE-1.31.10-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaayjlkvfek6wxwmqrg4xejn33tvlcb2wtakyhm4nrbytzaikn2smta",
+                "source_name": "Oracle-Linux-8.10-Gen2-GPU-2025.08.31-0-OKE-1.34.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaknjbsgq7pilyiay63j4re3b73r3ezylu722kiapbcuwc6kzrpgjq",
+                "source_name": "Oracle-Linux-8.10-Gen2-GPU-2025.08.31-0-OKE-1.33.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa5zb72n5xigqw7feypsikkclyqvzr4g6i5qe4vcuu5vpxiywagowq",
+                "source_name": "Oracle-Linux-8.10-Gen2-GPU-2025.08.31-0-OKE-1.32.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaawt555olttll2ixr7ww5o6d6f55oeazkqeuh42iyrp6sems5j22qq",
+                "source_name": "Oracle-Linux-8.10-Gen2-GPU-2025.08.31-0-OKE-1.31.10-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaahnateksv22hrpwnv76omyqyl5ufzijf3h6stkvmz23xvex2uk5kq",
+                "source_name": "Oracle-Linux-8.10-Gen2-GPU-2025.07.21-0-OKE-1.33.1-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa2whaqdgzwrptakrbnrbtl2gf6ixtc4aaavp2qa5zknkxso2un63a",
+                "source_name": "Oracle-Linux-8.10-Gen2-GPU-2025.07.21-0-OKE-1.32.1-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaayrl5wdm32z4zlfgbnmy37c4lv222ljvyh4c2ydly7q6pcgbq4moq",
+                "source_name": "Oracle-Linux-8.10-Gen2-GPU-2025.07.21-0-OKE-1.31.10-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaacwa6mxizavajqhcd6vc5q7lrfuynwt7s6ra5mrihnypbu4kde5rq",
+                "source_name": "Oracle-Linux-8.10-Gen2-GPU-2025.05.19-0-OKE-1.31.1-804",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaj6kgzljq34c6ytau3iyyxabxqyabguo7fopft7bgp4jdifvdgdya",
+                "source_name": "Oracle-Linux-8.10-Gen2-GPU-2025.05.19-0-OKE-1.31.1-764",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa5qqume4wnzv34zq3h7uc45jdumiaupzxo66eu2kbaiz5dj7utqhq",
+                "source_name": "Oracle-Linux-8.10-Gen2-GPU-2025.02.28-0-OKE-1.31.1-760",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaat7wocipgyktocjs5w6ictwpgac2atdowohtnifxdr3h7ulawnlpa",
+                "source_name": "Oracle-Linux-8.10-2025.09.16-0-OKE-1.34.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaafcly7kb4cevzx2d45dor6njioaxh6oxtnnsthh2lfjtsyo2liu2a",
+                "source_name": "Oracle-Linux-8.10-2025.09.16-0-OKE-1.33.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaad53ncabiqkii22acd6hor6cjle3sako4ir5mxp5ciphyey3zhqdq",
+                "source_name": "Oracle-Linux-8.10-2025.09.16-0-OKE-1.32.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaqkx5bxozfek3xx3ktisf6hak4kb7ebonyin35waukyy4iqdtgrqq",
+                "source_name": "Oracle-Linux-8.10-2025.09.16-0-OKE-1.31.10-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaxhqf5evyxawwtatntj545v36apm3dkydrc3drgx2trsph7ztye5a",
+                "source_name": "Oracle-Linux-8.10-2025.08.31-0-OKE-1.34.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaiyds7fijvfzd4b76gad3fjrwxbcv7avjgmwtjwaph5im223lcfia",
+                "source_name": "Oracle-Linux-8.10-2025.08.31-0-OKE-1.33.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa3qculpnh55rputgxkrwwol3angnvjjjfob352e72pxs3sz4np4rq",
+                "source_name": "Oracle-Linux-8.10-2025.08.31-0-OKE-1.32.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa52fw2wai5cmnragngmgq4dktugsyd2vqwztwwof2azs72r54kc7a",
+                "source_name": "Oracle-Linux-8.10-2025.08.31-0-OKE-1.31.10-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaqdygafz7f4gy3c4bapg6kavdjedxjj46jcy5yca253n5rt57dy6a",
+                "source_name": "Oracle-Linux-8.10-2025.07.21-0-OKE-1.33.1-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaarfhxagbborjey7lgycpeh3xtwnugpr75uefthfarozmav24eixja",
+                "source_name": "Oracle-Linux-8.10-2025.07.21-0-OKE-1.32.1-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa25jpxsqrd6rkckbjffv3nyx2ex7yrnl5su4xhcbdqzwz5ryxjlaq",
+                "source_name": "Oracle-Linux-8.10-2025.07.21-0-OKE-1.31.10-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaab3btte7lhwrgll64csfneyjlmva6e7ecrpgvvkda2k4m6pxgxxnq",
+                "source_name": "Oracle-Linux-8.10-2025.05.19-0-OKE-1.31.1-804",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaow5jivf552csdum7w4tfwbo6st2ks3ljjn4exgvemst4v25ihjdq",
+                "source_name": "Oracle-Linux-8.10-2025.05.19-0-OKE-1.31.1-764",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa5iapggfnrbn7izfy3q5fvhw6cvyqdwuzl2kzrhljhtsmr64dew6q",
+                "source_name": "Oracle-Linux-8.10-2025.02.28-0-OKE-1.31.1-760",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaarfrxvippuzqq745isji4v3z3qtmxre4ane3im2wvf3d4mbjwsv4q",
+                "source_name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.34.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa565wy63yxrlda27mvp3vhtgqp7diz5ilsvffh2734tjlopd3xqda",
+                "source_name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.34.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaopcofkkn7mfkgtsoxdm4xxsvimtcipyg36qv76r3ei725mphwyqa",
+                "source_name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.33.1-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaano2utkh5452uollysbytys6qqfrqj3ag7pdbn7zcl3iu5qy2qc4q",
+                "source_name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.33.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaoklmzwiswem7orbcwm6zd7gvja64ghmhvhkmuansikbb6cfunsma",
+                "source_name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.33.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaemhgav32xaf5aw6tahztyv6dlm7vkdfaryq5tvgfujjzj5xlyxiq",
+                "source_name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.32.1-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa6gulnyp2lb2ckesha5akycwyk5mrccmsbqcwxfvfchxj2vablqja",
+                "source_name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.32.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa3f6ykiiebysq5m4xjpxurmzq23vgndjdpmjnqmniseqe65fqhn5q",
+                "source_name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.32.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaagiu7ugmcbrfsvbkz4dgklbdyhld6p4iugunqbgfzij7rhsal4rhq",
+                "source_name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.31.10-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaawdpnk3mbjnriucbesr4fbtwdfzftsu27f5ozf5nezpzcj7vbtgqq",
+                "source_name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.31.10-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaavl4ycw44jsap2ji3r3qdvk2xwnmat2d2qix3glfje77hfhidxuia",
+                "source_name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.31.10-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa7v6zpvyydet3sleawua77rbzzuxt6jw5ox7koinbextedwmf2qsa",
+                "source_name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.31.1-804",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaqoamdylfkapb2fhdtmjcok3pxhv5jm2iosjofpkqklr57vmzwpoa",
+                "source_name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.31.1-764",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaahwjzrfrw4j2qqc6aabgt22ypvbsc56lbcaf25t74jvrfkqud44dq",
+                "source_name": "Oracle-Linux-7.9-aarch64-2024.11.30-0-OKE-1.31.1-760",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaax6uuq3x475kl2e6tl6zulpzdcjov3pwdt3pakh3sa63cw6lbsn3q",
+                "source_name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.34.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa6idekmku2ytkntr55sspnnzgweh2ptueix6uqiadansinshtlzta",
+                "source_name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.34.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaqwukssxuzqs2jc7frzeqhpqfqg62fzpls36gkexbuigm3lixag3a",
+                "source_name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.33.1-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaailbkdhb4suzbfsstefiv5dn3aoei3k3g2let2nzlvqtpfww4424q",
+                "source_name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.33.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaxfbi7qj5pkfgckeyjeuy476e4g2oyua3mcurwm4477qvprse3vra",
+                "source_name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.33.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaalveomrlbbuuyzfcumusbirbh5sqtue6seha2an2dyc2mvrfv4jcq",
+                "source_name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.32.1-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa3tdc5enzqaplzfygwjgnxwpayakocy67shfyjr7qbxynvt4754ba",
+                "source_name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.32.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaab2leztc75xcex542naflk42nyxnpreumosvf7pc7sr42mu5lkz3a",
+                "source_name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.32.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaazca7ci2esjbhvb2kgl5slg76x7uufnkie2u5xjvk7efzznfkgv3q",
+                "source_name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.31.10-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaucj2c5ent57n52necgrnlkbzglzbwvk5kq3s5pbjcfd2gvs5tp3q",
+                "source_name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.31.10-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaanzdqmztfebipj47ugdrxvrwgc7n6xampdxrlirkso4murrr2l4cq",
+                "source_name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0-OKE-1.31.10-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaazhlpnfeul7fncfwzecm2zxrx2yoyqypzeod7r4yvwapj77xtec7q",
+                "source_name": "Oracle-Linux-7.9-Gen2-GPU-2025.01.31-0-OKE-1.31.1-804",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaabs4kd4nt4ke6lgjm5jx4kpmtb7oyru7wecpcfuoow6fydacgr7qa",
+                "source_name": "Oracle-Linux-7.9-Gen2-GPU-2025.01.31-0-OKE-1.31.1-764",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa6mkjtkgm5zdj47kqa6xsskkgo24hdqetzidlthzoiay4cw7l7u3q",
+                "source_name": "Oracle-Linux-7.9-Gen2-GPU-2025.01.31-0-OKE-1.31.1-760",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaarxua56ajjnttz4iuh7o4dmylwewzixa2gwpqnfzn4kg7stvhlsvq",
+                "source_name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.34.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa4pzpqbohi7x36lry5f7fhovldcdkce4gxzhgpdmaea4n5m7fahea",
+                "source_name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.34.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaalyf6v4szf2t6yqfyk3wchv2ql6uk4srl3fysi4svhrodsmobtisa",
+                "source_name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.33.1-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaeq5iygpmes26wteoppdoay7w6aieacwj7qk3hpsimljj74q76xpq",
+                "source_name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.33.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaautdf22rzflhkncb7lrcra6loicpepksmyxzqkp7v3zlaaza2oifa",
+                "source_name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.33.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaasnapgpjbi7gjihn37ifesbbnkqwfn4pzwkytsbdycfabwe45vtrq",
+                "source_name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.32.1-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaapske6ox2ci3qfwbbzciquaqnydcs2rgsf3juth6zlqufnhqf7xqa",
+                "source_name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.32.1-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaacwt2e7qfrxgh4p5cjmgfnrkeqml2yks4nlnl4dnfp4enwqwqm4ua",
+                "source_name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.32.1-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaadcyodwagrlkyc3kqkggg3ctx6zylwvzdikm6jcurnjko3hq2y2a",
+                "source_name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.31.10-967",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa322b76brgniyb4g4o35gn6uokobet2gzhfhn5yxtlrdkjl7gldqq",
+                "source_name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.31.10-1330",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa2u6fl5y3oj6vhcoex73duwyre6hfnliq74ewxdpo3t2y2324ekca",
+                "source_name": "Oracle-Linux-7.9-2025.07.21-0-OKE-1.31.10-1191",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaf6pentd3dthcimpklsrpm2nqpog57lpodkqqfdtd7v5wg2v4eckq",
+                "source_name": "Oracle-Linux-7.9-2025.04.16-0-OKE-1.31.1-804",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaa67buuuctyptdgre5za7pyllzgauvskqevbgxgcfgsd2kxqi7t6a",
+                "source_name": "Oracle-Linux-7.9-2025.04.16-0-OKE-1.31.1-764",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaam3rkcjae2fn4v2yxgqkhsv624zhibldr5qqsn45npu47xeq33rtq",
+                "source_name": "Oracle-Linux-7.9-2025.01.31-0-OKE-1.31.1-760",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaxg7naqn35j73w7tb3ketnwmkihipcmwo2r3vmbwpz73htatf726q",
+                "source_name": "Oracle-Linux-8.10-aarch64-2025.11.20-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa2ce3vhqfa7si35mkujlm3qcbiymzqkx2ooagh36autsupnvlwsnq",
+                "source_name": "Oracle-Linux-8.10-aarch64-2025.10.23-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaafixhc43ipfou3g2bqjh4bs7tuj2lhzwakwzhurzu2bxxnhhr66oq",
+                "source_name": "Oracle-Linux-8.10-aarch64-2025.09.16-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaltnbx66bwivo6caywyzbtod6rq3tvok5bkjjmfzofzlui6suauaq",
+                "source_name": "Oracle-Linux-8.10-Gen2-GPU-2025.11.20-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaavqk6qfa4fmuca5uwuc6nipdf4grb3talsx4rihvjczdjxi7yjqua",
+                "source_name": "Oracle-Linux-8.10-Gen2-GPU-2025.10.23-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaoookoinwuypkpwa442veiv3shrz4entr7zmhh7euntezh5a5lshq",
+                "source_name": "Oracle-Linux-8.10-Gen2-GPU-2025.09.16-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaauftq5f5wlovr72asagufhe3om3annl74kylp3srg5uzqiilmg6ea",
+                "source_name": "Oracle-Linux-8.10-Gen2-AMD-GPU-2025.08.31-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaadfjl4o6vjezteznzboy7k6bfeb3kdmz6ofd4qsmhk22bbzp4frcq",
+                "source_name": "Oracle-Linux-8.10-Gen2-AMD-GPU-2024.08.31-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa4xxeipdja6l2valq4iqsfjripnjffka5f3ycpzdixrg2xu7dzxha",
+                "source_name": "Oracle-Linux-8.10-2025.11.20-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaapc255srhs345bdfvjuwutjb55nc4b6bcjtnvglxpupjkbq2uxqpa",
+                "source_name": "Oracle-Linux-8.10-2025.10.23-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaagxjc7cxamrusqi2nil62qecif753ugxrvifp6iru4gf2k4rp76aa",
+                "source_name": "Oracle-Linux-8.10-2025.09.16-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa267gephgrqd4dimf55szmw7gwqibqxkheyixbz3ptltspla6brnq",
+                "source_name": "Oracle-Linux-7.9-aarch64-2024.11.30-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa3jb75w3vi3daukrsjjkjkhfysy6ana2qt7j6srfhau24mnalcslq",
+                "source_name": "Oracle-Linux-7.9-aarch64-2024.10.31-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaafbcwmz7ygnghmbuq4ylekuklbp6cmmdewy5dtbckc5ohd73agj5a",
+                "source_name": "Oracle-Linux-7.9-aarch64-2024.09.30-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa5xtoxvxlncjqnc7hn2ot7f7qyg7mqjtm4ifnbzmoqlbkuwqdzyhq",
+                "source_name": "Oracle-Linux-7.9-Gen2-GPU-2025.07.21-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaal45sa5nortjwtxfnzcufq4ly5kq7dhshz3e37vumjk7arjknajwa",
+                "source_name": "Oracle-Linux-7.9-Gen2-GPU-2025.01.31-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaa6eg7hulwgltw2qhx5yvxd6sgxas55vytvnsv6xtzeox6up2b762q",
+                "source_name": "Oracle-Linux-7.9-Gen2-GPU-2024.11.30-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaauigmkuqa6l6h7iojchelvbhj3nknyetyb53tr2ooyxjtlyd62lq",
+                "source_name": "Oracle-Linux-7.9-2025.10.23-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaajhfyidw3edtue2qdchxybkxq23jzq2xo5sbzbykc4smxsshhaqea",
+                "source_name": "Oracle-Linux-7.9-2025.07.21-0",
+                "source_type": "IMAGE"
+              },
+              {
+                "image_id": "ocid1.image.oc1.ap-hyderabad-1.aaaaaaaaemahjdx4qbb3jznt646ozbb7qptbq3fffh3liw2mfuhbfzimugua",
+                "source_name": "Oracle-Linux-7.9-2025.04.16-0",
+                "source_type": "IMAGE"
+              }
+            ]
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "module": "module.oke",
+      "mode": "data",
+      "type": "oci_containerengine_cluster_kube_config",
+      "name": "kubeconfig",
+      "provider": "provider[\"registry.terraform.io/hashicorp/oci\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "cluster_id": "ocid1.cluster.oc1.ap-hyderabad-1.aaaaaaaafto7ivllqmc67hhkk6ss6mqfdurybdywwmlzhgbjxcmer3k2ggga",
+            "content": "---\napiVersion: v1\nkind: \"\"\nclusters:\n- name: cluster-cmer3k2ggga\n  cluster:\n    server: https://140.245.240.8:6443\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURpVENDQW5HZ0F3SUJBZ0lSQU1pdUVVTURKVGNRSFpHZ0NTWmp0Z1l3RFFZSktvWklodmNOQVFFTEJRQXcKWGpFUE1BMEdBMVVFQXd3R1N6aHpJRU5CTVFzd0NRWURWUVFHRXdKVlV6RVBNQTBHQTFVRUJ3d0dRWFZ6ZEdsdQpNUTh3RFFZRFZRUUtEQVpQY21GamJHVXhEREFLQmdOVkJBc01BMDlqYVRFT01Bd0dBMVVFQ0F3RlZHVjRZWE13CkhoY05Nall3TVRBMU1EWXhNekkzV2hjTk16RXdNVEExTURZeE16STNXakJlTVE4d0RRWURWUVFEREFaTE9ITWcKUTBFeEN6QUpCZ05WQkFZVEFsVlRNUTh3RFFZRFZRUUhEQVpCZFhOMGFXNHhEekFOQmdOVkJBb01Cazl5WVdOcwpaVEVNTUFvR0ExVUVDd3dEVDJOcE1RNHdEQVlEVlFRSURBVlVaWGhoY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCCkJRQURnZ0VQQURDQ0FRb0NnZ0VCQU96aGw3Ym5FVHFYdXpQZ3BHQU5vZXo1SHR6RVNDN1NkWUxvU1FhMlo1dGgKd1FHcG5GdjNaSWg3QnJUT2lxdldlMU05Y200MC9zeTZQandiZjJDRUdwQUhPYVhaWEU4ZXBkeHVUeFo5a05hSgpIS2h3NytjMHAxcXB4UmVETXRRMy9RMXQ3SFRFdE8vZllad0UwcHJib280djVjWXE4bmhaWUc2MVM1OEZwYTRUCjNueVc4K0xsZVZ0d0p1cUp4MEkxS3dVZW1NWUhmZVd1eWVGUVhySXlGU0pFK0FFZ0E1cDNEZyt6YW5lY3ptS0MKWnd4UUNtUTlCRi9qQTc4cHViVERPUXVaZGJORlVNeG1iRVZwbEZBS3RUZFRhWTFqaHVCRU5GWElUaUZ4OFVzNApiYlF6RmlYUDJPUGZWbGtIeGNCSUlHcW4wKzRvQUVTWFpCVzUrcGFRSWc4Q0F3RUFBYU5DTUVBd0R3WURWUjBUCkFRSC9CQVV3QXdFQi96QU9CZ05WSFE4QkFmOEVCQU1DQVFZd0hRWURWUjBPQkJZRUZGM2pTTEI1ZlNrZFpRdXMKYUxON2FxM1RiOStQTUEwR0NTcUdTSWIzRFFFQkN3VUFBNElCQVFEQjJvSk5UenFBVkMzbEJXUzZsZ0JkcEN5QwpJNEd4RDA2dmg0TmtUZmx3b0ZVTjVCdUNmeUNKS2hjR01BV2JZOTF2Tm53YXZLVzhyaWNDNUJ5ekdTQWNjR0YrCm13OW5FUEdOcWpCUCszT0tFRHAzbi9EZE5naFFSU2NqNEdXdmpyalRJVG1KK0w1SlM4VGo5QlQxT3BZb1ovN1YKTittb2dRZUZTUTdqUFJGRzZlU3Rkc2xtTmZYdDgybkNQUUt6Ujl5ZUVEUFhXVEd5SkdlbFV2VGdrbTJVQVhIVgo1Z0FhWUNXN0l6eEQ2SXB1dVBHNm9VdjMvYVV6dGxrRmVOdkRYYnNpVE84bFlrTXZDWkE4bWlVWi9hOHVxTjZCCnF4Y2lYZVRPbnlsM0VyK0VJdEVLQmJ3Y0E3RE4vT202M0tOZTE1N2VLdHdPekV6YTZJdk1mYk9vK3ZSbwotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==\nusers:\n- name: user-cmer3k2ggga\n  user:\n    exec:\n      apiVersion: client.authentication.k8s.io/v1beta1\n      command: oci\n      args:\n      - ce\n      - cluster\n      - generate-token\n      - --cluster-id\n      - ocid1.cluster.oc1.ap-hyderabad-1.aaaaaaaafto7ivllqmc67hhkk6ss6mqfdurybdywwmlzhgbjxcmer3k2ggga\n      - --region\n      - ap-hyderabad-1\n      env: []\ncontexts:\n- name: context-cmer3k2ggga\n  context:\n    cluster: cluster-cmer3k2ggga\n    user: user-cmer3k2ggga\ncurrent-context: context-cmer3k2ggga\n",
+            "endpoint": null,
+            "expiration": null,
+            "id": "ContainerengineClusterKubeConfigDataSource-3852829253",
+            "token_version": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "module": "module.oke",
+      "mode": "managed",
+      "type": "oci_containerengine_cluster",
+      "name": "oke_cluster",
+      "provider": "provider[\"registry.terraform.io/hashicorp/oci\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "available_kubernetes_upgrades": [
+              "v1.33.0",
+              "v1.33.1"
+            ],
+            "cluster_pod_network_options": [
+              {
+                "cni_type": "FLANNEL_OVERLAY"
+              }
+            ],
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaaobhtfarb3qbhuef7fqgqt5od76w4qbvha77hucw4xh25vkr7xclq",
+            "defined_tags": {
+              "Oracle-Tags.CreatedBy": "default/itprojects@nitcon.org",
+              "Oracle-Tags.CreatedOn": "2026-01-05T06:13:04.095Z"
+            },
+            "endpoint_config": [
+              {
+                "is_public_ip_enabled": true,
+                "nsg_ids": [],
+                "subnet_id": "ocid1.subnet.oc1.ap-hyderabad-1.aaaaaaaa6uafec2lwxf7psrrjsnazxwltlzo2e7fkju5zupr7irb6e24pxra"
+              }
+            ],
+            "endpoints": [
+              {
+                "ipv6endpoint": "",
+                "kubernetes": "",
+                "private_endpoint": "10.0.1.22:6443",
+                "public_endpoint": "140.245.240.8:6443",
+                "vcn_hostname_endpoint": "cmer3k2ggga.public.ocitest.oraclevcn.com:6443"
+              }
+            ],
+            "freeform_tags": {
+              "KubernetesCluster": "oci-test"
+            },
+            "id": "ocid1.cluster.oc1.ap-hyderabad-1.aaaaaaaafto7ivllqmc67hhkk6ss6mqfdurybdywwmlzhgbjxcmer3k2ggga",
+            "image_policy_config": [
+              {
+                "is_policy_enabled": false,
+                "key_details": []
+              }
+            ],
+            "kms_key_id": null,
+            "kubernetes_version": "v1.32.1",
+            "lifecycle_details": null,
+            "metadata": [
+              {
+                "created_by_user_id": "ocid1.user.oc1..aaaaaaaandw5zdiiotcwmvrqgeef3enlh2qw3wclvvt66hwksrwmv4rlxmwq",
+                "created_by_work_request_id": "ocid1.clustersworkrequest.oc1.ap-hyderabad-1.aaaaaaaa6vr5n7qo6s6kwsmjauajlvixh2il4ugfglapghrn6waqpu5jb47a",
+                "deleted_by_user_id": "",
+                "deleted_by_work_request_id": "",
+                "time_created": "2026-01-05 06:13:04 +0000 UTC",
+                "time_credential_expiration": "2031-01-05 06:13:48 +0000 UTC",
+                "time_deleted": "",
+                "time_updated": "",
+                "updated_by_user_id": "",
+                "updated_by_work_request_id": ""
+              }
+            ],
+            "name": "oci-test",
+            "open_id_connect_discovery_endpoint": null,
+            "open_id_connect_discovery_key": null,
+            "options": [
+              {
+                "add_ons": [
+                  {
+                    "is_kubernetes_dashboard_enabled": false,
+                    "is_tiller_enabled": false
+                  }
+                ],
+                "admission_controller_options": [
+                  {
+                    "is_pod_security_policy_enabled": false
+                  }
+                ],
+                "ip_families": [
+                  "IPv4"
+                ],
+                "kubernetes_network_config": [
+                  {
+                    "pods_cidr": "10.244.0.0/16",
+                    "services_cidr": "10.96.0.0/16"
+                  }
+                ],
+                "open_id_connect_discovery": [],
+                "open_id_connect_token_authentication_config": [],
+                "persistent_volume_config": [
+                  {
+                    "defined_tags": {},
+                    "freeform_tags": {}
+                  }
+                ],
+                "service_lb_config": [
+                  {
+                    "backend_nsg_ids": [],
+                    "defined_tags": {},
+                    "freeform_tags": {}
+                  }
+                ],
+                "service_lb_subnet_ids": [
+                  "ocid1.subnet.oc1.ap-hyderabad-1.aaaaaaaa6uafec2lwxf7psrrjsnazxwltlzo2e7fkju5zupr7irb6e24pxra"
+                ]
+              }
+            ],
+            "state": "ACTIVE",
+            "timeouts": null,
+            "type": "BASIC_CLUSTER",
+            "vcn_id": "ocid1.vcn.oc1.ap-hyderabad-1.amaaaaaatnhtktia6yehomx6iada3zvmjfqwuui3cgueiqqm6ibaj7pzcv5a"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozNjAwMDAwMDAwMDAwLCJkZWxldGUiOjM2MDAwMDAwMDAwMDAsInVwZGF0ZSI6MzYwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "module.network.oci_core_internet_gateway.igw",
+            "module.network.oci_core_route_table.public_rt",
+            "module.network.oci_core_security_list.public_api_sl",
+            "module.network.oci_core_subnet.public_subnet",
+            "module.network.oci_core_vcn.vcn"
+          ]
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}

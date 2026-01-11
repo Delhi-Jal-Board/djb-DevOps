@@ -1,0 +1,38 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"networking.k8s.io/v1","kind":"Ingress","metadata":{"annotations":{"kubernetes.io/ingress.class":"nginx","nginx.ingress.kubernetes.io/rewrite-target":"/services","nginx.ingress.kubernetes.io/use-regex":"true"},"labels":{"app":"mcd-finance"},"name":"mcd-finance","namespace":"egov"},"spec":{"rules":[{"host":"abdeas-dev.sparrowsoftech.in","http":{"paths":[{"backend":{"service":{"name":"mcd-finance","port":{"number":8080}}},"path":"/services","pathType":"Prefix"}]}}],"tls":[{"hosts":["abdeas-dev.sparrowsoftech.in"],"secretName":"abdeas-dev.sparrowsoftech.in-tls-certs"}]}}
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/rewrite-target: /services
+    nginx.ingress.kubernetes.io/use-regex: "true"
+  creationTimestamp: "2025-03-29T08:40:52Z"
+  generation: 1
+  labels:
+    app: mcd-finance
+  name: mcd-finance
+  namespace: egov
+  resourceVersion: "36699"
+  uid: a6aecf06-d853-4b20-ba3c-4515f1f7a38d
+spec:
+  rules:
+  - host: abdeas-dev.sparrowsoftech.in
+    http:
+      paths:
+      - backend:
+          service:
+            name: egov-finance
+            port:
+              number: 8080
+        path: /services
+        pathType: Prefix
+  tls:
+  - hosts:
+    - abdeas-dev.sparrowsoftech.in
+    secretName: abdeas-dev.sparrowsoftech.in-tls-certs
+status:
+  loadBalancer:
+    ingress:
+    - hostname: a4592307bf4b047f2a759beec9b5383a-887938863.ap-south-1.elb.amazonaws.com

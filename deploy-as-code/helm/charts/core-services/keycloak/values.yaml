@@ -1,0 +1,65 @@
+# Common Labels
+labels:
+  app: "keycloak"
+  group: "core"
+
+namespace: egov
+
+# Ingress Configs
+ingress:
+  enabled: true
+  zuul: false
+  context: "keycloak"
+
+# Container Configs
+image:
+  repository: "delhijalboard/keycloak"
+  tag: "v1"
+replicas: "1"
+
+# Additional Container Envs
+env: |  
+  - name: SERVER_PORT
+    value: "8080"
+  - name: PROXY_ADDRESS_FORWARDING
+    value: "true"
+  - name: DB_VENDOR
+    value: postgres
+  - name: DB_ADDR
+    valueFrom:
+      configMapKeyRef:
+        name: egov-config
+        key: db-host
+  - name: DB_DATABASE
+    valueFrom: 
+      configMapKeyRef:
+        name: egov-config
+        key: keycloak-db-name
+  - name: DB_PORT
+    value: "5432"
+  - name: DB_USER
+    valueFrom:
+      secretKeyRef:
+        name: db
+        key: username
+  - name: DB_PASSWORD
+    valueFrom:
+      secretKeyRef:
+        name: db
+        key: password
+  - name: KC_HTTP_ENABLED
+    value: "true"
+  - name: KC_PROXY
+    value: "edge"
+  - name: KC_HOSTNAME_STRICT
+    value: "false"
+  #- name: KEYCLOAK_USER
+  #  valueFrom:
+  #    secretKeyRef:
+  #      name: db
+  #      key: keycloak-username
+  #- name: DB_PASSWORD
+  #  valueFrom:
+  #    secretKeyRef:
+  #      name: db
+  #      key: keycloak-password

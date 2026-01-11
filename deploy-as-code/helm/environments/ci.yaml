@@ -1,0 +1,82 @@
+global:
+  domain: djb-cicd.nitcon.in ## Add your Domain Name Eg: site.mydomain.com
+  setup: fullsetup
+
+cluster-configs:
+  namespaces:
+    create: true
+    values: [jenkins, cert-manager]
+  root-ingress:
+    namespace: jenkins
+    serviceName: jenkins
+    servicePort: 8080
+    appRoot: ""
+    cert-issuer: "letsencrypt-prod"
+
+jenkins:
+  persistence:
+    enabled: true
+  #    aws:
+  #      - volumeId: "vol-0e10a8959033657ff" # Add volume id for jenkins-home
+  #        zone: ap-south-1b # Add respective availability_zones
+
+  oauth:
+    enabled: true
+    acl:
+      admin:
+        - delhijalboard*djbteam # Add github team. Members of this team gets admin access on jenkins
+      user: # Add github team. Members of this team gets login access on jenkins
+        - delhijalboard*djbteam-ci
+        - delhijalboard*djbteam-qa
+
+  jobBuilder: # Add jobBuilder repo's, add repo's ssh link
+    repos: >-
+      'https://github.com/Delhi-Jal-Board/djb-UPYOG.git'
+  deploymentJobs: # Setup deploymentJobs ACL
+    - name: ci # deployment job name
+      acl: [delhijalboard*djbteam-ci] # GitHub team name, Members of the team get access to deployment job
+    - name: qa
+      acl: [delhijalboard*djbteam-qa]
+
+  master:
+    ingress:
+      enabled: true
+    resources:
+      limits:
+        cpu: "2000m"
+        memory: "4096Mi"
+    javaOpts: "-Xms2560M -Xmx2560M -Duser.timezone=Asia/Calcutta"
+
+nginx-ingress:
+  replicas: 1
+  default-backend-service: "jenkins/jenkins"
+  namespace: jenkins
+  cert-issuer: "letsencrypt-staging"
+  ssl-protocols: "TLSv1.2 TLSv1.3"
+  ssl-ciphers: "EECDH+CHACHA20:EECDH+AES"
+  ssl-ecdh-curve: "X25519:prime256v1:secp521r1:secp384r1"
+  controller:
+    image:
+      repository: egovio/nginx-ingress-controller
+      tag: "0.26.1"
+
+cert-manager:
+  namespace: jenkins
+  clusterIssuer:
+    stage:
+      acme:
+        email: "delhijalboard25@gmail.com" # Add mail id
+
+cluster-autoscaler:
+  namespace: jenkins
+  cloudProvider: oci
+  oci:
+    compartmentId: ocid1.compartment.oc1..aaaaaaaa7s46awhletykomysjycqqs2q4eydpurtylki3khvygwhgn3bvltq
+    clusterId: ocid1.cluster.oc1.ap-hyderabad-1.aaaaaaaabbcyg2vmvxzoodvy6eehku2cn44li4p42mccldy4ecz77fapu22a
+    nodePools:
+      - ocid1.nodepool.oc1.ap-hyderabad-1.aaaaaaaa57tsdli5hudrwfec22tqptxvqtwwfajnzxxidumvvn3lx3hv6sra
+  #awsRegion: ap-hyderabad-1
+  #autoDiscovery:
+  #  clusterName: upyog_jenkins # Add cluster name
+  #  tags:
+  #    - kubernetes.io/cluster/upyog_jenkins # Add cluster name

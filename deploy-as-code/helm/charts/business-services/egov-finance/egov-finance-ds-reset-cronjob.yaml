@@ -1,0 +1,48 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: egov-finance-ds-reset
+  namespace: egov
+spec:
+  schedule: "0 15 * * *"   # 3:00 PM
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 1
+  failedJobsHistoryLimit: 1
+  jobTemplate:
+    spec:
+      backoffLimit: 0
+      template:
+        spec:
+          serviceAccountName: egov-maintenance-sa
+          restartPolicy: Never
+          containers:
+            - name: finance-ds-reset
+              image: bitnami/kubectl:1.29
+              command:
+                - /bin/bash
+                - -c
+                - |
+                  set -e
+                  NAMESPACE=egov
+
+                  for pod in $(kubectl get pods -n "$NAMESPACE" -l app=egov-finance -o name); do
+                    ip=$(kubectl get -n "$NAMESPACE" "$pod" -o jsonpath='{.status.podIP}')
+                    echo "==== $pod ($ip) BEFORE ===="
+
+                    kubectl exec -i -n "$NAMESPACE" "$pod" -- \
+                      /opt/jboss/wildfly/bin/jboss-cli.sh --connect \
+                      --commands="/subsystem=datasources/data-source=READWRITE_DS/statistics=pool:read-resource(include-runtime=true)" \
+                      | grep -E '"ActiveCount"|"AvailableCount"|"InUseCount"|"MaxUsedCount"'
+
+                    echo "---- Flushing ALL ----"
+                    kubectl exec -i -n "$NAMESPACE" "$pod" -- \
+                      /opt/jboss/wildfly/bin/jboss-cli.sh --connect \
+                      --commands="/subsystem=datasources/data-source=READWRITE_DS:flush-all-connection-in-pool"
+
+                    echo "==== $pod ($ip) AFTER ===="
+                    kubectl exec -i -n "$NAMESPACE" "$pod" -- \
+                      /opt/jboss/wildfly/bin/jboss-cli.sh --connect \
+                      --commands="/subsystem=datasources/data-source=READWRITE_DS/statistics=pool:read-resource(include-runtime=true)" \
+                      | grep -E '"ActiveCount"|"AvailableCount"|"InUseCount"|"MaxUsedCount"'
+                    echo
+                  done
